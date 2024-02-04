@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+
+    &__logo{
+        h3{
+            color: black;
+            font-weight: 300;
+        }
+    }
+    &__button{
+        button{
+            margin-left: 10px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            min-width: 150px;
+        }
+    }
+}
